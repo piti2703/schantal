@@ -8,11 +8,14 @@
 
     <script src="https://kit.fontawesome.com/7689eee82e.js" crossorigin="anonymous"></script>
 
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/main.css">
 
@@ -48,7 +51,7 @@
                 <nav class="nav-mobile">
                     <ul class="nav-mobile__list">
                         <li class="nav-mobile__list-item"><a href="#">home</a></li>
-                        <li class="nav-mobile__list-item"><a href="#">o firmie</a></li>
+                        <li class="nav-mobile__list-item"><a href="#about-us">o firmie</a></li>
                         <li class="nav-mobile__list-item nav-mobile__list-item--expanded"><a href="#">oferta <i class="fas fa-caret-down"></i></a>
                         
                             <ul class="header__dropdown">
@@ -60,14 +63,14 @@
                             </ul>
                         
                         </li>
-                        <li class="nav-mobile__list-item"><a href="#">wycena</a></li>
-                        <li class="nav-mobile__list-item"><a href="#">kontakt</a></li>
+                        <li class="nav-mobile__list-item"><a href="#quotation">wycena</a></li>
+                        <li class="nav-mobile__list-item"><a href="#contact">kontakt</a></li>
                     </ul>
                 </nav>
                 <nav class="nav-desktop">
                     <ul class="nav-desktop__list">
                         <li class="nav-desktop__list-item"><a href="#">home</a></li>
-                        <li class="nav-desktop__list-item"><a href="#">o firmie</a></li>
+                        <li class="nav-desktop__list-item"><a href="#about-us">o firmie</a></li>
                         <li class="nav-desktop__list-item nav-desktop__list-item--expanded"><a href="#">oferta <i class="fas fa-caret-down"></i></a>
                         
                             <ul class="header__dropdown">
@@ -79,8 +82,8 @@
                             </ul>
                         
                         </li>
-                        <li class="nav-desktop__list-item"><a href="#">wycena</a></li>
-                        <li class="nav-desktop__list-item"><a href="#">kontakt</a></li>
+                        <li class="nav-desktop__list-item"><a href="#quotation">wycena</a></li>
+                        <li class="nav-desktop__list-item"><a href="#contact">kontakt</a></li>
                     </ul>
                 </nav>
             </div>
@@ -93,10 +96,30 @@
     </header>
 
     <main class="main">
-        <div class="contact section-padding">
+        <section class="about-us section-padding" id="about-us">
+            <h3 class="section-heading">o nas</h3>
+           <div class="wrapper">
+            <p class="about-us__text">Jesteśmy młodą, ale bardzo szybko rozwijającą się firmą z branży produkcji oraz dystrybucji mieszadeł budowlanych. Zajmujemy się produkcją wysokiej jakości mieszadeł do zapraw, gipsów, klejów, tynków, betonów oraz farb. Dzięki dobrej znajomości branży w której działamy, produkujemy cenione na rynku produkty. W ofercie posiadamy szeroką ofertę mieszadeł, w różnych wariantach rozmiarowych. </p>
+            <p class="about-us__text">Wszystkie mieszadła wykonujemy z wysokogatunkowej stali. Produkty są ocynkowane, dzięki czemu posiadają ochronę oraz gwarancje długiej żywotności. Największym dowodem na wysoką jakość wytwarzanych przez nas produktów jest brak reklamacji. </p>
+            <p class="about-us__text">Jesteśmy pewni swoich produktów dzięki czemu udostępniamy potencjalnemu klientowi zamówienie bezpłatnych próbek naszych mieszadeł. Dzięki posiadaniu własnego transportu zapewniamy transport produktów w całej Europie w najkorzystniejszych cenach. </p>
+            <p class="about-us__text">Zapraszamy do zapoznania się z naszą ofertą. </p>
+           </div>
+        </section>
+        <section class="quotation section-padding" id="quotation">
+            <h3 class="section-heading">wycena</h3>
+           <div class="wrapper">
+            <p class="quotation__text"> Jeśli chcesz poprosić o wycenę produktów zapraszamy do kontaktu poprzez nasz formularz kontaktowy. Produkty wyceniamy indywidualnie, biorąc pod uwagę wiele czynników m.in. model produktu, zapotrzebowanie oraz miejsce dostawy towaru. </p>
+            <p class="quotation__text"> W wiadomości warto podać informację na temat ilości, która Państwa interesuje (jednorazowo/miesięcznie/inne), informacje na temat kodu pocztowego dostawy/kraju dostawy. Posiadamy własny transport dlatego koszty dostawy są bardzo atrakcyjne i składają się jedynie z nakładów na paliwo. </p>
+            <p class="quotation__text"> Jesteśmy pewni wysokiej jakości naszych produktów, dlatego oferujemy możliwość zamówienia darmowych próbek mieszadeł.</p>
+            <p class="quotation__text"> Zapraszamy do kontaktu poprzez poniższy formularz kontaktowy. </p>
             <div class="white-block white-block-left"></div>
+            <div class="white-block white-block-right"></div>
+           </div>
+        </section>
+        <section class="contact section-padding" id="contact">
+            <div class="white-block white-block-left"></div>
+            <h3 class="section-heading">formularz kontaktowy</h3>
             <div class="wrapper">
-                <h3 class="section-heading">formularz kontaktowy</h3>
 
                 <form action="" class="contact__form">
                     <label for="name" class="contact__form-label">Imię i nazwisko</label>
@@ -114,7 +137,7 @@
                     <button type="submit" class="contact__form-btn btn-special-animation">Wyślij</button>
                 </form>
             </div>
-        </div>
+        </section>
     </main>
 
     <footer class="footer">
