@@ -137,7 +137,7 @@ body {
         ),
         url(../img/1.jpg);
         margin-top: 5em;
-        height: 500px;
+        height: 300px;
         background-size: cover;
         background-position: top;
         // background-attachment: fixed;
@@ -280,6 +280,11 @@ body {
     overflow: hidden;
     position: relative;
     z-index: 0;
+    
+
+    .section-heading {
+        margin-top: 2em;
+    }
 
     .white-block-right {
         background-color: #434343;
@@ -353,6 +358,9 @@ body {
 
     .accordion-button {
         font-size: 1.7rem;
+    }
+    .accordion-item .accordion-button.collapsed {
+        background-color: #ddd9;
     }
     .accordion-body {
         li {
@@ -547,6 +555,11 @@ body {
             }
         }
     }    
+}
+.header {
+    &__banner {
+       height: 500px;
+    }
 }
     
 }
