@@ -167,6 +167,7 @@ h2, h3, h4, p, span, a, button {
 .header__phone span {
   padding: 0 1em;
   font-size: 1.7rem;
+  font-weight: 400;
 }
 
 .header__phone-icon {
@@ -260,8 +261,8 @@ h2, h3, h4, p, span, a, button {
 }
 
 .header__banner {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/1.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/1.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/bg-mobile.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-mobile.jpg);
   margin-top: 5em;
   height: 400px;
   background-size: cover;
@@ -805,6 +806,8 @@ h2, h3, h4, p, span, a, button {
   }
   .header__banner {
     height: 500px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/bg-desktop.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-desktop.jpg);
   }
   .header__text-subtitle::before, .header__text-subtitle::after {
     width: 25%;

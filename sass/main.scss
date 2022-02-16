@@ -133,18 +133,16 @@ h2, h3, h4, p, span, a, button {
 
 
     &__banner {
-        // background-image: url(/img/1.jpg);
         background:
         linear-gradient(
-          rgba(0, 0, 0, 0.5), 
-          rgba(0, 0, 0, 0.5)
+          rgba(0, 0, 0, 0.6), 
+          rgba(0, 0, 0, 0.6)
         ),
-        url(../img/1.jpg);
+        url(../img/bg-mobile.jpg);
         margin-top: 5em;
         height: 400px;
         background-size: cover;
         background-position: top;
-        // background-attachment: fixed;
         position: relative;
         overflow: hidden;
         display: flex;
@@ -652,6 +650,12 @@ h2, h3, h4, p, span, a, button {
 .header {
     &__banner {
        height: 500px;
+       background:
+       linear-gradient(
+         rgba(0, 0, 0, 0.6), 
+         rgba(0, 0, 0, 0.6)
+       ),
+       url(../img/bg-desktop.jpg);
     }
     &__text {
         &-subtitle {
