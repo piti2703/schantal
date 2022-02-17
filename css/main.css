@@ -305,7 +305,7 @@ h2, h3, h4, p, span, a, button {
 }
 
 .header__text-title {
-  font-size: 5.6rem;
+  font-size: 4.8rem;
   text-transform: uppercase;
   color: #fff;
 }
@@ -389,7 +389,7 @@ h2, h3, h4, p, span, a, button {
 }
 
 .nav-desktop__list-item {
-  padding: 0 1em;
+  padding: 0;
   border-right: 1px solid #000;
 }
 
@@ -862,6 +862,12 @@ h2, h3, h4, p, span, a, button {
   .offer__content-heading {
     font-size: 2.6rem;
     text-align: left;
+  }
+}
+
+@media (min-width: 1050px) {
+  .nav-desktop__list-item {
+    padding: 0 1em;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -177,7 +177,7 @@ h2, h3, h4, p, span, a, button {
             }
         }
         &-title {
-            font-size: 5.6rem;
+            font-size: 4.8rem;
             text-transform: uppercase;
             color: #fff;
         }
@@ -234,7 +234,7 @@ h2, h3, h4, p, span, a, button {
         
         &-item {
             
-            padding: 0 1em;
+            padding: 0;
             border-right: 1px solid #000;
             
             &:last-child {
@@ -632,6 +632,10 @@ h2, h3, h4, p, span, a, button {
     }
 
     
+
+
+
+    
 .offer {
     background-color: #434343;
     
@@ -738,6 +742,17 @@ h2, h3, h4, p, span, a, button {
 
 }
 
-@media(min-width: 1100px) {
+@media(min-width: 1050px) {
+
+    .nav-desktop {
+
+        &__list {
+    
+            
+            &-item {
+                padding: 0 1em;
+            }
+        }
+    }
   
 }
